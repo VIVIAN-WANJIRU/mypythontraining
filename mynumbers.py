@@ -20,3 +20,23 @@ print((6>7) or (7==7))
 print('@' in 'mail@mail.com')
 
 print('@' in 'mail@mail.com' and '.' in 'mail@mail.com')
+temp = 56.8926
+temp = round(temp,3)
+print(temp)
+
+
+temp = 56.8926
+temp = round(temp,2)
+temp = str(temp) + "0"
+print(temp)
+
+temp = 56.8926
+temp = str(temp)[0:6]
+print(temp)
+
+temp_three = 56.8926
+temp_three = str(temp_three)
+temp_three = temp_three[3] + temp_three[2] + temp_three[4:7]
+print(temp_three)
+
+
