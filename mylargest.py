@@ -1,11 +1,6 @@
-user = 150
-if (user>=100) and (user<=150): 
-    if user > 100:
-        print("Largest")
-    elif user <=100:
-         print("All are equal")
-    else:
-         print("Equal")
-else:
-    print("number invalid")
+mynum1 = float(input("Enter number 1:"))
+mynum2 = float(input("Enter number 2:"))
+mynum3 = float(input("Enter number 3:"))
+if (mynum1>mynum2) and (mynum1>mynum3):
+    print("largest")
     
